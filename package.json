@@ -1,5 +1,5 @@
 {
-  "name": "fast-noise-lite",
+  "name": "fast-noise-lite-ts",
   "version": "1.0.0",
   "description": "A fast and lightweight noise generation library for JavaScript",
   "main": "./dist/index.js",
