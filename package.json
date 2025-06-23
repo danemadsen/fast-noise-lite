@@ -1,0 +1,45 @@
+{
+  "name": "fast-noise-lite",
+  "version": "1.0.0",
+  "description": "A fast and lightweight noise generation library for JavaScript",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "files": ["dist"],
+  "keywords": [
+    "noise",
+    "fastnoise",
+    "procedural",
+    "simplex",
+    "opensimplex",
+    "cellular",
+    "voronoi",
+    "perlin",
+    "value",
+    "cubic",
+    "fractal",
+    "domain-warping",
+    "2D",
+    "3D",
+    "heightmap",
+    "terrain",
+    "texture",
+    "random",
+    "generative"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danemadsen/fast-noise-lite/issues"
+  },
+  "homepage": "https://github.com/danemadsen/fast-noise-lite#readme",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "typescript": "^5.8.3"
+  }
+}
